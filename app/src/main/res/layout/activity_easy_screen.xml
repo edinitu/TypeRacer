@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/easy_image_1">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guideline_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".425" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_guideline_1"
+        app:layout_constraintGuide_percent=".59"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/top_guideline_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".265" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_guideline_1"
+        app:layout_constraintGuide_percent=".37"
+        android:orientation="horizontal"/>
+
+    <ImageButton
+        android:id="@+id/button_e1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/e_1"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline_1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline_1"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline_1"
+        app:layout_constraintTop_toTopOf="@+id/top_guideline_1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_guideline_2"
+        app:layout_constraintGuide_percent=".68"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_guideline_2"
+        app:layout_constraintGuide_percent=".84"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/top_guideline_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".56" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bottom_guideline_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".67" />
+
+
+    <ImageButton
+        android:id="@+id/button_e2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/e_2"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline_2"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline_2"
+        app:layout_constraintTop_toTopOf="@+id/top_guideline_2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guideline_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.155" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_guideline_3"
+        app:layout_constraintGuide_percent=".34"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_guideline_3"
+        app:layout_constraintGuide_percent=".68"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_guideline_3"
+        app:layout_constraintGuide_percent=".80"
+        android:orientation="horizontal"/>
+
+    <ImageButton
+        android:id="@+id/button_e3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/e_3"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline_3"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline_3"
+        app:layout_constraintTop_toTopOf="@+id/top_guideline_3"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

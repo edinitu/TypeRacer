@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".easy_screen"
+    android:background="@drawable/easy_image_1">
+
+    <ImageButton
+        android:id="@+id/imageButton_e1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="190dp"/>
+
+
+    <ImageButton
+        android:id="@+id/imageButton_e2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="250dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_e3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="300dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="320dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_e4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="300dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="330dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_e5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="300dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="285dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_e6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="300dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="220dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_e7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="155dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_e8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="250dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton_e9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="300dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="140dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton_e10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/poza_setari"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="300dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="215dp"/>
+
+    </RelativeLayout>

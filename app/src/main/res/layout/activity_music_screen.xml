@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:id="@+id/music">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play 'Never gonna give you up'"
+        android:layout_below="@id/textLista"
+        android:id="@+id/buton_muzica"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buton_muzica"
+        android:text="Play 'Footloose'"
+        android:id="@+id/butonmuzica2"/>
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Muzica de fundal" />
+
+    <TextView
+        android:id="@+id/textLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@id/switch2"
+        android:text="Lista melodii:" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica2"
+        android:text="Play 'Shape of you'"
+        android:id="@+id/butonmuzica3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica3"
+        android:text="Play 'The lazy song'"
+        android:id="@+id/butonmuzica4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica4"
+        android:text="Play 'I want it that way'"
+        android:id="@+id/butonmuzica5"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica5"
+        android:text="Play 'Rockabye'"
+        android:id="@+id/butonmuzica6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica6"
+        android:text="Play 'Pantelimonu' petrece'"
+        android:id="@+id/butonmuzica7"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica7"
+        android:text="Play 'Cuvinte Grele'"
+        android:id="@+id/butonmuzica8"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica8"
+        android:text="Play 'Levitating'"
+        android:id="@+id/butonmuzica9"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica9"
+        android:text="Play 'Changes'"
+        android:id="@+id/butonmuzica10"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica10"
+        android:text="Play 'Dragostea din tei'"
+        android:id="@+id/butonmuzica11"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica11"
+        android:text="Play 'Livin' La Vida Loca'"
+        android:id="@+id/butonmuzica12"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica12"
+        android:text="Play 'Maria Maria'"
+        android:id="@+id/butonmuzica13"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica13"
+        android:text="Play 'Cand ingerii pleaca'"
+        android:id="@+id/butonmuzica14"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica14"
+        android:text="Play 'In Rai'"
+        android:id="@+id/butonmuzica15"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica15"
+        android:text="Play 'Red'"
+        android:id="@+id/butonmuzica16"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica16"
+        android:text="Play 'Stolen Dance'"
+        android:id="@+id/butonmuzica17"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica17"
+        android:text="Play 'Pana la sange'"
+        android:id="@+id/butonmuzica18"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica18"
+        android:text="Play 'Nota de plata'"
+        android:id="@+id/butonmuzica19"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica19"
+        android:text="Play 'B.M.V.'"
+        android:id="@+id/butonmuzica20"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica20"
+        android:text="Play 'Atat de simplu'"
+        android:id="@+id/butonmuzica21"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica21"
+        android:text="Play 'Candyman'"
+        android:id="@+id/butonmuzica22"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/butonmuzica22"
+        android:text="Play 'Price Tag'"
+        android:id="@+id/butonmuzica23"/>
+
+</RelativeLayout>
+    </ScrollView>

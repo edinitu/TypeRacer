@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@color/design_default_color_secondary"
+        android:textColor="@color/white"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textScor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@id/textResult"
+        android:background="@color/design_default_color_secondary"
+        android:textColor="@color/white"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textWPM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_secondary"
+        android:layout_below="@id/textScor"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textAccuracy"
+        android:layout_width="match_parent"
+        android:background="@color/design_default_color_secondary"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@id/textWPM"
+        android:textSize="20dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonNextLv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAccuracy"
+        android:background="@color/white"
+        android:text="Next Level" />
+
+    <Button
+        android:id="@+id/buttonTryAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonNextLv"
+        android:background="@color/white"
+        android:text="Try again" />
+
+    <Button
+        android:id="@+id/buttonSaveAndExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonTryAgain"
+        android:background="@color/white"
+        android:text="Save and exit" />
+</RelativeLayout>
